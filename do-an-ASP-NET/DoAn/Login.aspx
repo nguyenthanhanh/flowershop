@@ -2,15 +2,15 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Conten12" ContentPlaceHolderID="cphLogin" runat="server">
-        <div class="container-login">
-      <form class="form-login">
+    <div class="container-login">
+      <div class="form-login">
         <h3>Đăng nhập</h3>
         <div class="input-group">
-          <input type="text" id="username">
+          <input type="text" id="username" required>
           <label for="username">Tên đăng nhập</label>
         </div>
         <div class="input-group mt">
-          <input type="password" id="password">
+          <input type="password" id="password" required>
           <label for="password">Mật khẩu</label>
         </div>
         <button type="submit">Đăng nhập</button>
@@ -21,7 +21,7 @@
         <div class="forgot-password">
           <a href="#">Quên mật khẩu ?</a>
         </div>
-          </form>
+        </div>
       </div>
     </asp:Content>
 

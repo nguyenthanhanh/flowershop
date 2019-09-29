@@ -11,7 +11,7 @@
   opacity: .75;
 }
 
-.form-login {
+.container-login .form-login {
   background: white;
   width: 540px;
   height: 374px;

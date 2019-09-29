@@ -23,3 +23,9 @@ C:\Users\ThanhAnh\Desktop\ASP.NET-master\ASP.NET-master\do-an-ASP-NET\DoAn\bin\D
 C:\Users\ThanhAnh\Desktop\ASP.NET-master\ASP.NET-master\do-an-ASP-NET\DoAn\obj\Debug\DoAn.csprojResolveAssemblyReference.cache
 C:\Users\ThanhAnh\Desktop\ASP.NET-master\ASP.NET-master\do-an-ASP-NET\DoAn\obj\Debug\DoAn.dll
 C:\Users\ThanhAnh\Desktop\ASP.NET-master\ASP.NET-master\do-an-ASP-NET\DoAn\obj\Debug\DoAn.pdb
+C:\Users\Nhat Huy\Desktop\flowershop\do-an-ASP-NET\DoAn\bin\DoAn.dll.config
+C:\Users\Nhat Huy\Desktop\flowershop\do-an-ASP-NET\DoAn\bin\DoAn.dll
+C:\Users\Nhat Huy\Desktop\flowershop\do-an-ASP-NET\DoAn\bin\DoAn.pdb
+C:\Users\Nhat Huy\Desktop\flowershop\do-an-ASP-NET\DoAn\obj\Debug\DoAn.csprojResolveAssemblyReference.cache
+C:\Users\Nhat Huy\Desktop\flowershop\do-an-ASP-NET\DoAn\obj\Debug\DoAn.dll
+C:\Users\Nhat Huy\Desktop\flowershop\do-an-ASP-NET\DoAn\obj\Debug\DoAn.pdb
