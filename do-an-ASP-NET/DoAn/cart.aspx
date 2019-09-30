@@ -98,7 +98,7 @@
 	              </div>
 	            </form>
     				</div>
-    				<p><a href="checkout.html" class="btn btn-primary py-3 px-4">Nộp Mã Giãm Giá</a></p>
+    				<p><a href="/check-out.aspx" class="btn btn-primary py-3 px-4">Nộp Mã Giãm Giá</a></p>
     			</div>
     			<div class="col-lg-4 mt-5 cart-wrap ftco-animate">
     				<div class="cart-total mb-3">
@@ -119,7 +119,7 @@
 	              </div>
 	            </form>
     				</div>
-    				<p><a href="checkout.html" class="btn btn-primary py-3 px-4">Giao Hàng</a></p>
+    				<p><a href="/check-out.aspx" class="btn btn-primary py-3 px-4">Giao Hàng</a></p>
     			</div>
     			<div class="col-lg-4 mt-5 cart-wrap ftco-animate">
     				<div class="cart-total mb-3">
@@ -142,7 +142,7 @@
     						<span>$17.60</span>
     					</p>
     				</div>
-    				<p><a href="checkout.html" class="btn btn-primary py-3 px-4">Tiến Hành Thanh Toán</a></p>
+    				<p><a href="/check-out.aspx" class="btn btn-primary py-3 px-4">Tiến Hành Thanh Toán</a></p>
     			</div>
     		</div>
 			</div>
