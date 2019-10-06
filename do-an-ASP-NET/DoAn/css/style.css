@@ -4882,7 +4882,7 @@ a.close.disabled {
   .bs-popover-top .arrow::before, .bs-popover-auto[x-placement^="top"] .arrow::before {
     bottom: 0;
     border-top-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-top .arrow::after,
   .bs-popover-auto[x-placement^="top"] .arrow::after {
     bottom: 1px;
@@ -4902,7 +4902,7 @@ a.close.disabled {
   .bs-popover-right .arrow::before, .bs-popover-auto[x-placement^="right"] .arrow::before {
     left: 0;
     border-right-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-right .arrow::after,
   .bs-popover-auto[x-placement^="right"] .arrow::after {
     left: 1px;
@@ -4919,7 +4919,7 @@ a.close.disabled {
   .bs-popover-bottom .arrow::before, .bs-popover-auto[x-placement^="bottom"] .arrow::before {
     top: 0;
     border-bottom-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-bottom .arrow::after,
   .bs-popover-auto[x-placement^="bottom"] .arrow::after {
     top: 1px;
@@ -4948,7 +4948,7 @@ a.close.disabled {
   .bs-popover-left .arrow::before, .bs-popover-auto[x-placement^="left"] .arrow::before {
     right: 0;
     border-left-color: rgba(0, 0, 0, 0.25); }
-  
+
   .bs-popover-left .arrow::after,
   .bs-popover-auto[x-placement^="left"] .arrow::after {
     right: 1px;
@@ -8159,16 +8159,16 @@ h1, h2, h3, h4, h5,
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1); }
     .ftco-navbar-light.scrolled .nav-item.active > a {
-      color: #82ae46 !important; }
+      color: #FC427B !important; }
     .ftco-navbar-light.scrolled .nav-item.cta > a {
       color: #fff !important;
-      background: #82ae46;
+      background: #FC427B;
       border: none !important; }
       .ftco-navbar-light.scrolled .nav-item.cta > a span {
         display: inline-block;
         color: #fff !important; }
     .ftco-navbar-light.scrolled .nav-item.cta.cta-colored span {
-      border-color: #82ae46; }
+      border-color: #FC427B; }
     @media (max-width: 991.98px) {
       .ftco-navbar-light.scrolled .navbar-nav {
         background: none;
@@ -8273,7 +8273,7 @@ h1, h2, h3, h4, h5,
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
-  background: #82ae46;
+  background: #FC427B;
   cursor: pointer;
   position: relative;
   text-align: center;
@@ -8518,8 +8518,8 @@ h1, h2, h3, h4, h5,
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
   .btn.btn-primary {
-    background: #82ae46;
-    border: 1px solid #82ae46;
+    background: #CAD3C8;
+    border: 1px solid #CAD3C8;
     color: #fff; }
     .btn.btn-primary:hover {
       border: 1px solid #82ae46;
@@ -8678,7 +8678,7 @@ h1, h2, h3, h4, h5,
       bottom: 0;
       content: '';
       opacity: 0;
-      background: #82ae46;
+      background: #FC427B;
       -moz-transition: all 0.3s ease;
       -o-transition: all 0.3s ease;
       -webkit-transition: all 0.3s ease;
@@ -8691,7 +8691,7 @@ h1, h2, h3, h4, h5,
       padding: 2px 10px;
       color: #fff;
       font-weight: 300;
-      background: #82ae46;
+      background: #FC427B;
       font-size: 12px; }
     .product .img-prod img {
       -webkit-transform: scale(1);
@@ -8748,13 +8748,13 @@ h1, h2, h3, h4, h5,
         color: #000000; }
     .product .text p.price {
       margin-bottom: 0;
-      color: #82ae46;
+      color: #FC427B;
       font-weight: 400; }
       .product .text p.price span.price-dc {
         text-decoration: line-through;
         color: #b3b3b3; }
       .product .text p.price span.price-sale {
-        color: #82ae46; }
+        color: #FC427B; }
     .product .text .pricing {
       width: 100%;
       -moz-transition: all 0.3s ease;
@@ -8776,7 +8776,7 @@ h1, h2, h3, h4, h5,
       .product .text .bottom-area a {
         color: #fff;
         width: 100%;
-        background: #82ae46;
+        background: #FC427B;
         width: 40px;
         height: 40px;
         margin: 0 auto;
@@ -9282,12 +9282,12 @@ textarea.form-control {
     margin-bottom: 10px;
     font-family: "Lora", Georgia, serif;
     font-style: italic;
-    color: #82ae46; }
+    color: #FC427B; }
   .heading-section h2 {
     position: relative;
     font-size: 40px;
     font-weight: 600;
-    color: #000000;
+    color: #FC427B;
     font-family: "Poppins", Arial, sans-serif; }
     @media (max-width: 767.98px) {
       .heading-section h2 {
@@ -9376,7 +9376,7 @@ textarea.form-control {
   width: 100%;
   height: 250px; }
   .ftco-category .category-wrap .text {
-    background: #82ae46; }
+    background: #EAB543; }
     .ftco-category .category-wrap .text h2 {
       font-size: 18px;
       font-family: "Poppins", Arial, sans-serif; }

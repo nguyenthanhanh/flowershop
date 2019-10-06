@@ -68,6 +68,7 @@
     <Content Include="contact-us.aspx" />
     <Content Include="css\login.css" />
     <Content Include="css\register.css" />
+    <Content Include="css\style.css" />
     <Content Include="index.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="Master-page-do-an.Master" />
@@ -215,7 +216,6 @@
     <Content Include="css\open-iconic-bootstrap.min.css" />
     <Content Include="css\owl.carousel.min.css" />
     <Content Include="css\owl.theme.default.min.css" />
-    <Content Include="css\style.css" />
     <Content Include="fonts\flaticon\backup.txt" />
     <Content Include="fonts\flaticon\font\flaticon.css" />
     <Content Include="fonts\flaticon\font\flaticon.html" />

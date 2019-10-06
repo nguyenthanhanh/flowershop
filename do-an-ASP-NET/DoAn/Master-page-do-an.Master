@@ -31,7 +31,7 @@
   
   <link rel="stylesheet" href="css/flaticon.css">
   <link rel="stylesheet" href="css/icomoon.css">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="~/css/style.css"/>
   <link rel="stylesheet" href="css/login.css">
   <link rel="stylesheet" href="css/register.css">
     <style>
@@ -59,7 +59,7 @@
 						    <span class="text">CountingHouse@gmail.com</span>
 					    </div>
 					    <div class="col-md-5 pr-4 d-flex topper align-items-center text-lg-right">
-						    <span class="text">TỪ 3-5 NGÀY GIAO HOA TẬN NƠI &amp;TRẢ LẠI MIỄN PHÍ </span>
+						    <span class="text">TỪ 3-5 NGÀY GIAO HOA TẬN NƠI &amp; TRẢ LẠI MIỄN PHÍ </span>
 					    </div>
 				    </div>
 			    </div>
