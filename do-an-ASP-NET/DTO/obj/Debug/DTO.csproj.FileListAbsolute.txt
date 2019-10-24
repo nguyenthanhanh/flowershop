@@ -1,0 +1,5 @@
+C:\Users\Nhat Huy\Desktop\do-an-asp\do-an-ASP-NET\DTO\bin\Debug\DTO.dll
+C:\Users\Nhat Huy\Desktop\do-an-asp\do-an-ASP-NET\DTO\bin\Debug\DTO.pdb
+C:\Users\Nhat Huy\Desktop\do-an-asp\do-an-ASP-NET\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+C:\Users\Nhat Huy\Desktop\do-an-asp\do-an-ASP-NET\DTO\obj\Debug\DTO.dll
+C:\Users\Nhat Huy\Desktop\do-an-asp\do-an-ASP-NET\DTO\obj\Debug\DTO.pdb
