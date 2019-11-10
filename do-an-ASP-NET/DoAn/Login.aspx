@@ -1,7 +1,21 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master-page-do-an.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="DoAn.Login" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
-<asp:Content ID="Conten12" ContentPlaceHolderID="cphLogin" runat="server">
+<asp:Content ID="Content2" ContentPlaceHolderID="cphIndex" runat="server">
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="cphShop" runat="server">
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="cphWishlist" runat="server">
+</asp:Content>
+<asp:Content ID="Content5" ContentPlaceHolderID="cphChiTietSP" runat="server">
+</asp:Content>
+<asp:Content ID="Content6" ContentPlaceHolderID="cphCart" runat="server">
+</asp:Content>
+<asp:Content ID="Content7" ContentPlaceHolderID="cphCheckout" runat="server">
+</asp:Content>
+<asp:Content ID="Content8" ContentPlaceHolderID="cphAboutUS" runat="server">
+</asp:Content>
+<asp:Content ID="Content9" ContentPlaceHolderID="cphLogin" runat="server">
     <div class="container-login">
       <div class="form-login">
         <h3>Đăng nhập</h3>
@@ -24,22 +38,5 @@
         </div>
       </div>
     </asp:Content>
-
-<asp:Content ID="Content3" ContentPlaceHolderID="cphShop" runat="server">
-</asp:Content>
-<asp:Content ID="Content4" ContentPlaceHolderID="cphWishlist" runat="server">
-</asp:Content>
-<asp:Content ID="Content5" ContentPlaceHolderID="cphChiTietSP" runat="server">
-</asp:Content>
-<asp:Content ID="Content6" ContentPlaceHolderID="cphCart" runat="server">
-</asp:Content>
-<asp:Content ID="Content7" ContentPlaceHolderID="cphCheckout" runat="server">
-</asp:Content>
-<asp:Content ID="Content8" ContentPlaceHolderID="cphAboutUS" runat="server">
-</asp:Content>
-<asp:Content ID="Content9" ContentPlaceHolderID="cphBlog" runat="server">
-</asp:Content>
-<asp:Content ID="Content10" ContentPlaceHolderID="cphBlogSingle" runat="server">
-</asp:Content>
-<asp:Content ID="Content11" ContentPlaceHolderID="cphContactUS" runat="server">
+<asp:Content ID="Content10" ContentPlaceHolderID="cphRegister" runat="server">
 </asp:Content>

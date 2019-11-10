@@ -18,7 +18,7 @@ namespace DoAn
 
         private void LoadSanPham()
         {
-            rptSanPham.DataSource = SanPhamBUS.LayDSSanPham();
+            rptSanPham.DataSource = ShopBus.LayDSHoaNoiBat();
             rptSanPham.DataBind();
         }
     }

@@ -154,16 +154,17 @@
     	<div class="container">
     		<div class="row">
                 <asp:Repeater runat="server" ID="rptSanPham">
+                   
                     <ItemTemplate>
                         <div class="col-md-6 col-lg-3 ftco-animate">
     				        <div class="product">
     					        <a href="#" class="img-prod">
-                                    <asp:Image ImageUrl='<%# "images/" + Eval("AnhSanPham") %>' runat="server" />
+                                    <asp:Image ImageUrl='<%# "images/products/" + Eval("AnhMinhHoa") %>' runat="server" />
     						        <div class="overlay"></div>
     					        </a>
     					        <div class="text py-3 pb-4 px-3 text-center">
     						        <h3><a href="#">
-                                        <asp:Label Text='<%# Eval("TenSP") %>' runat="server" />
+                                        <asp:Label Text='<%# Eval("TenHoa") %>' runat="server" />
     						            </a></h3>
     						        <div class="d-flex">
     							        <div class="pricing">
@@ -210,9 +211,10 @@
 </asp:Content>
 <asp:Content ID="Content8" ContentPlaceHolderID="cphAboutUS" runat="server">
 </asp:Content>
-<asp:Content ID="Content9" ContentPlaceHolderID="cphBlog" runat="server">
+<asp:Content ID="Content9" ContentPlaceHolderID="cphLogin" runat="server">
 </asp:Content>
-<asp:Content ID="Content10" ContentPlaceHolderID="cphBlogSingle" runat="server">
+<asp:Content ID="Content10" ContentPlaceHolderID="cphRegister" runat="server">
 </asp:Content>
-<asp:Content ID="Content11" ContentPlaceHolderID="cphContactUS" runat="server">
-</asp:Content>
+
+
+

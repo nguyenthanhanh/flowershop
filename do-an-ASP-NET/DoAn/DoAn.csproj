@@ -60,12 +60,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="about-us.aspx" />
-    <Content Include="blog-single.aspx" />
-    <Content Include="blog.aspx" />
     <Content Include="cart.aspx" />
     <Content Include="check-out.aspx" />
     <Content Include="chi-tiet-san-pham.aspx" />
-    <Content Include="contact-us.aspx" />
     <Content Include="css\login.css" />
     <Content Include="css\register.css" />
     <Content Include="css\style.css" />
@@ -288,20 +285,6 @@
     <Compile Include="about-us.aspx.designer.cs">
       <DependentUpon>about-us.aspx</DependentUpon>
     </Compile>
-    <Compile Include="blog-single.aspx.cs">
-      <DependentUpon>blog-single.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="blog-single.aspx.designer.cs">
-      <DependentUpon>blog-single.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="blog.aspx.cs">
-      <DependentUpon>blog.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="blog.aspx.designer.cs">
-      <DependentUpon>blog.aspx</DependentUpon>
-    </Compile>
     <Compile Include="cart.aspx.cs">
       <DependentUpon>cart.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -322,13 +305,6 @@
     </Compile>
     <Compile Include="chi-tiet-san-pham.aspx.designer.cs">
       <DependentUpon>chi-tiet-san-pham.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="contact-us.aspx.cs">
-      <DependentUpon>contact-us.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="contact-us.aspx.designer.cs">
-      <DependentUpon>contact-us.aspx</DependentUpon>
     </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>

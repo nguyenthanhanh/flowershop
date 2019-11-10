@@ -94,33 +94,6 @@ namespace DoAn {
         protected global::System.Web.UI.WebControls.ContentPlaceHolder cphAboutUS;
         
         /// <summary>
-        /// cphBlog control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder cphBlog;
-        
-        /// <summary>
-        /// cphBlogSingle control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder cphBlogSingle;
-        
-        /// <summary>
-        /// cphContactUS control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder cphContactUS;
-        
-        /// <summary>
         /// cphLogin control.
         /// </summary>
         /// <remarks>

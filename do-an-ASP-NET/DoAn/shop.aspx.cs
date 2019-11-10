@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using DTO;
+using BUS;
 
 namespace DoAn
 {
@@ -11,7 +13,13 @@ namespace DoAn
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            this.load_SP();
+        }
 
+        private void load_SP()
+        {
+            rptHoa.DataSource = ShopBus.LayDSHoa();
+            rptHoa.DataBind();
         }
     }
 }

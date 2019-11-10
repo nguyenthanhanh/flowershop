@@ -153,9 +153,7 @@
 </asp:Content>
 <asp:Content ID="Content8" ContentPlaceHolderID="cphAboutUS" runat="server">
 </asp:Content>
-<asp:Content ID="Content9" ContentPlaceHolderID="cphBlog" runat="server">
+<asp:Content ID="Content9" ContentPlaceHolderID="cphLogin" runat="server">
 </asp:Content>
-<asp:Content ID="Content10" ContentPlaceHolderID="cphBlogSingle" runat="server">
-</asp:Content>
-<asp:Content ID="Content11" ContentPlaceHolderID="cphContactUS" runat="server">
+<asp:Content ID="Content10" ContentPlaceHolderID="cphRegister" runat="server">
 </asp:Content>

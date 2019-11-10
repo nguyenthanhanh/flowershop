@@ -7,3 +7,12 @@ C:\Users\Nhat Huy\Desktop\do-an-asp\do-an-ASP-NET\BUS\bin\Debug\DTO.pdb
 C:\Users\Nhat Huy\Desktop\do-an-asp\do-an-ASP-NET\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
 C:\Users\Nhat Huy\Desktop\do-an-asp\do-an-ASP-NET\BUS\obj\Debug\BUS.dll
 C:\Users\Nhat Huy\Desktop\do-an-asp\do-an-ASP-NET\BUS\obj\Debug\BUS.pdb
+C:\Users\ThanhAnh\Desktop\lambai\flowershop\do-an-ASP-NET\BUS\bin\Debug\BUS.dll
+C:\Users\ThanhAnh\Desktop\lambai\flowershop\do-an-ASP-NET\BUS\bin\Debug\BUS.pdb
+C:\Users\ThanhAnh\Desktop\lambai\flowershop\do-an-ASP-NET\BUS\bin\Debug\DAO.dll
+C:\Users\ThanhAnh\Desktop\lambai\flowershop\do-an-ASP-NET\BUS\bin\Debug\DTO.dll
+C:\Users\ThanhAnh\Desktop\lambai\flowershop\do-an-ASP-NET\BUS\bin\Debug\DAO.pdb
+C:\Users\ThanhAnh\Desktop\lambai\flowershop\do-an-ASP-NET\BUS\bin\Debug\DTO.pdb
+C:\Users\ThanhAnh\Desktop\lambai\flowershop\do-an-ASP-NET\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
+C:\Users\ThanhAnh\Desktop\lambai\flowershop\do-an-ASP-NET\BUS\obj\Debug\BUS.dll
+C:\Users\ThanhAnh\Desktop\lambai\flowershop\do-an-ASP-NET\BUS\obj\Debug\BUS.pdb

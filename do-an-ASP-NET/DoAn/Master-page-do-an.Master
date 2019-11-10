@@ -86,8 +86,6 @@
               </div>
             </li>
 	          <li class="nav-item"><a href="/about-us.aspx" class="nav-link">Giới Thiệu</a></li>
-	          <li class="nav-item"><a href="/blog.aspx" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="/contact-us.aspx" class="nav-link">Liên Hệ</a></li>
               <li class="nav-item"><a href="/Login.aspx" class="nav-link">Đăng Nhập</a></li>
               <li class="nav-item"><a href="/register.aspx" class="nav-link">Đăng ký</a></li>
 	          <li class="nav-item cta cta-colored"><a href="/cart.aspx" class="nav-link"><span class="icon-shopping_cart"></span>[0]</a></li>
@@ -107,9 +105,6 @@
         <asp:ContentPlaceHolder ID="cphCart" runat="server"></asp:ContentPlaceHolder>
         <asp:ContentPlaceHolder ID="cphCheckout" runat="server"></asp:ContentPlaceHolder>
         <asp:ContentPlaceHolder ID="cphAboutUS" runat="server"></asp:ContentPlaceHolder>
-        <asp:ContentPlaceHolder ID="cphBlog" runat="server"></asp:ContentPlaceHolder>
-        <asp:ContentPlaceHolder ID="cphBlogSingle" runat="server"></asp:ContentPlaceHolder>
-        <asp:ContentPlaceHolder ID="cphContactUS" runat="server"></asp:ContentPlaceHolder>
         <asp:ContentPlaceHolder ID="cphLogin" runat="server">/</asp:ContentPlaceHolder>
         <asp:ContentPlaceHolder ID="cphRegister" runat="server"></asp:ContentPlaceHolder>
     </div>
