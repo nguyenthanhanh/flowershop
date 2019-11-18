@@ -29,11 +29,11 @@
   <link rel="stylesheet" href="css/jquery.timepicker.css">
 
   
-  <link rel="stylesheet" href="css/flaticon.css">
-  <link rel="stylesheet" href="css/icomoon.css">
+  <link rel="stylesheet" href="css/flaticon.css"/>
+  <link rel="stylesheet" href="css/icomoon.css"/>
   <link rel="stylesheet" href="~/css/style.css"/>
-  <link rel="stylesheet" href="css/login.css">
-  <link rel="stylesheet" href="css/register.css">
+  <link rel="stylesheet" href="css/login.css"/>
+  <link rel="stylesheet" href="css/register.css"/>
     <style>
         .color-logo {
             color: #f06292 !important
@@ -45,7 +45,7 @@
 
    
 <body class="goto-here">
-   <div class="py-1 bg-primary">
+    <div class="py-1 bg-primary">
     	<div class="container">
     		<div class="row no-gutters d-flex align-items-start align-items-center px-md-0">
 	    		<div class="col-lg-12 d-block">
@@ -94,22 +94,18 @@
 	      </div>
 	    </div>
 	  </nav>
-    <!-- END nav -->
+      <!-- END nav -->
+   
+   
 
     <form id="form1" runat="server">
     <div>
         <asp:ContentPlaceHolder ID="cphIndex" runat="server"></asp:ContentPlaceHolder>
-        <asp:ContentPlaceHolder ID="cphShop" runat="server"></asp:ContentPlaceHolder>
-        <asp:ContentPlaceHolder ID="cphWishlist" runat="server"></asp:ContentPlaceHolder>
-        <asp:ContentPlaceHolder ID="cphChiTietSP" runat="server"></asp:ContentPlaceHolder>
-        <asp:ContentPlaceHolder ID="cphCart" runat="server"></asp:ContentPlaceHolder>
-        <asp:ContentPlaceHolder ID="cphCheckout" runat="server"></asp:ContentPlaceHolder>
-        <asp:ContentPlaceHolder ID="cphAboutUS" runat="server"></asp:ContentPlaceHolder>
-        <asp:ContentPlaceHolder ID="cphLogin" runat="server">/</asp:ContentPlaceHolder>
-        <asp:ContentPlaceHolder ID="cphRegister" runat="server"></asp:ContentPlaceHolder>
     </div>
+    </form>
 
-        <!-- FOOTER -->
+
+     <!-- FOOTER -->
     <hr />
      <section class="ftco-section ftco-no-pt ftco-no-pb py-5 bg-light">
       <div class="container py-4">
@@ -223,6 +219,5 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
-    </form>
 </body>
 </html>

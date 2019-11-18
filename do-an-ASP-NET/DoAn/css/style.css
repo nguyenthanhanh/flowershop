@@ -8636,16 +8636,17 @@ h1, h2, h3, h4, h5,
 .product-category li {
   display: inline-block;
   font-weight: 400;
-  font-size: 16px; }
+  font-size: 16px;
+}
   .product-category li a {
     color: #82ae46;
-    padding: 5px 20px;
+    padding: 15px 10px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
-    border-radius: 5px; }
+    border-radius: 5px;}
     .product-category li a.active {
-      background: #82ae46;
+      background: #FC427B;
       color: #fff; }
 
 .ftco-product .owl-carousel .owl-stage-outer {
@@ -9120,14 +9121,14 @@ h1, h2, h3, h4, h5,
         /* Firefox 18- */
         color: black !important; }
     .subscribe-form .form-group .submit {
-      border-left: 1px solid #82ae46;
+      border-left: 1px solid #FC427B;
       color: #fff !important;
       -webkit-border-radius: 0;
       -moz-border-radius: 0;
       -ms-border-radius: 0;
       border-radius: 0;
       font-size: 12px;
-      background: #82ae46 !important; }
+      background: #FC427B !important; }
       .subscribe-form .form-group .submit:hover {
         cursor: pointer; }
   .subscribe-form .icon {
@@ -9739,7 +9740,7 @@ textarea.form-control {
       border: 1px solid #e6e6e6;
       background: #fff; }
     .block-27 ul li.active a, .block-27 ul li.active span {
-      background: #82ae46;
+      background: #FC427B;
       color: #fff;
       border: 1px solid transparent; }
 
@@ -10015,3 +10016,67 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+#cphIndex_rfvTenTK{
+    color: red;
+}
+
+#cphIndex_revTenTK{
+    color:red;
+}
+
+#cphIndex_rftMK{
+    color:red;
+}
+
+#cphIndex_revMK{
+    color:red;
+}
+
+#cphIndex_rfvMK2{
+    color:red;
+}
+
+#cphIndex_cpvMK2{
+    color:red;
+}
+
+#cphIndex_rfvEmail{
+    color:red;
+}
+
+#cphIndex_rfvSDT{
+    color:red;
+}
+
+#cphIndex_revSDT{
+    color:red;
+}
+
+#cphIndex_rfvHoTen{
+    color:red;
+}
+
+#cphIndex_rfvDC{
+    color:red;
+}
+
+#cphIndex_cusTenTK{
+    color:red;
+}
+
+#cphIndex_cusDN_MK{
+    color:red;
+}
+
+#cphIndex_cusTenDN{
+    color:red;
+}
+
+#cphIndex_rfvDN_MK{
+    color:red;
+}
+
+#cphIndex_rfvTenDN{
+    color:red;
+}

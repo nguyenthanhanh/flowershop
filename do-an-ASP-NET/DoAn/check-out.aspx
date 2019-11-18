@@ -2,19 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cphIndex" runat="server">
-</asp:Content>
-<asp:Content ID="Content3" ContentPlaceHolderID="cphShop" runat="server">
-</asp:Content>
-<asp:Content ID="Content4" ContentPlaceHolderID="cphWishlist" runat="server">
-</asp:Content>
-<asp:Content ID="Content5" ContentPlaceHolderID="cphChiTietSP" runat="server">
-</asp:Content>
-<asp:Content ID="Content6" ContentPlaceHolderID="cphCart" runat="server">
-</asp:Content>
-
-<asp:Content ID="Content7" ContentPlaceHolderID="cphCheckout" runat="server">
-
-    <!-- CHECK OUT PAGE -->
+     <!-- CHECK OUT PAGE -->
         <div class="hero-wrap hero-bread" style="background-image: url('images/bg_1.jpg');">
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
@@ -144,28 +132,28 @@
 									<div class="form-group">
 										<div class="col-md-12">
 											<div class="radio">
-											   <label><input type="radio" name="optradio" class="mr-2">Chuyển Tiền Trực Tiếp Đến Ngăn Hàng</label>
+											   <label><input type="radio" name="optradio" class="mr-2"/>Chuyển Tiền Trực Tiếp Đến Ngăn Hàng</label>
 											</div>
 										</div>
 									</div>
 									<div class="form-group">
 										<div class="col-md-12">
 											<div class="radio">
-											   <label><input type="radio" name="optradio" class="mr-2"> Thanh Toán Trực Tiếp</label>
+											   <label><input type="radio" name="optradio" class="mr-2"/> Thanh Toán Trực Tiếp</label>
 											</div>
 										</div>
 									</div>
 									<div class="form-group">
 										<div class="col-md-12">
 											<div class="radio">
-											   <label><input type="radio" name="optradio" class="mr-2"> Paypal</label>
+											   <label><input type="radio" name="optradio" class="mr-2"/> Paypal</label>
 											</div>
 										</div>
 									</div>
 									<div class="form-group">
 										<div class="col-md-12">
 											<div class="checkbox">
-											   <label><input type="checkbox" value="" class="mr-2"> Tôi Đã Đọc Và Chấp Nhận Các Điều Khoản Và Các Điều Kiện</label>
+											   <label><input type="checkbox" value="" class="mr-2"/> Tôi Đã Đọc Và Chấp Nhận Các Điều Khoản Và Các Điều Kiện</label>
 											</div>
 										</div>
 									</div>
@@ -179,9 +167,3 @@
     </section> <!-- .section -->
 </asp:Content>
 
-<asp:Content ID="Content8" ContentPlaceHolderID="cphAboutUS" runat="server">
-</asp:Content>
-<asp:Content ID="Content9" ContentPlaceHolderID="cphLogin" runat="server">
-</asp:Content>
-<asp:Content ID="Content10" ContentPlaceHolderID="cphRegister" runat="server">
-</asp:Content>

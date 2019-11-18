@@ -25,9 +25,24 @@ namespace DAO
             
         }
 
+        public static List<ShopDTO> Lay_DS_Hoa(string maLoaiHoa)
+        {
+            string query = "SELECT * FROM Hoa Where MaLoaiHoa=@MaLoaiHoa";
+            SqlParameter[] param = new SqlParameter[1];
+            param[0] = new SqlParameter("@MaLoaiHoa", maLoaiHoa);
+            DataTable dtbKetQua = DataProvider.ExecuteSelectQuery(query, param);
+            List<ShopDTO> lstHoa = new List<ShopDTO>();
+            foreach (DataRow dr in dtbKetQua.Rows)
+            {
+                lstHoa.Add(ConvertToDTO(dr));
+            }
+            return lstHoa;
+
+        }
+
         public static List<ShopDTO> Lay_DS_Hoa_Noi_Bat()
         {
-            String query = "SELECT TOP 3 * FROM Hoa ";
+            String query = "SELECT TOP 4 * FROM Hoa ";
             SqlParameter[] param = new SqlParameter[0];
             DataTable dtbKetQua = DataProvider.ExecuteSelectQuery(query, param);
             List<ShopDTO> lstHoa = new List<ShopDTO>();
@@ -47,6 +62,7 @@ namespace DAO
             sp.SoLuongTonKho = Convert.ToInt32(dr["SoLuongTonKho"]);
             sp.MaLoaiHoa = dr["MaLoaiHoa"].ToString();
             sp.TrangThai = Convert.ToBoolean(dr["TrangThai"]);
+            sp.AnhMinhHoa = dr["AnhMinhHoa"].ToString();
             return sp;
             
         }

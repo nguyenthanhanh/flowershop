@@ -2,32 +2,22 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cphIndex" runat="server">
-</asp:Content>
-<asp:Content ID="Content3" ContentPlaceHolderID="cphShop" runat="server">
-</asp:Content>
-<asp:Content ID="Content4" ContentPlaceHolderID="cphWishlist" runat="server">
-</asp:Content>
-<asp:Content ID="Content5" ContentPlaceHolderID="cphChiTietSP" runat="server">
-</asp:Content>
-<asp:Content ID="Content6" ContentPlaceHolderID="cphCart" runat="server">
-</asp:Content>
-<asp:Content ID="Content7" ContentPlaceHolderID="cphCheckout" runat="server">
-</asp:Content>
-<asp:Content ID="Content8" ContentPlaceHolderID="cphAboutUS" runat="server">
-</asp:Content>
-<asp:Content ID="Content9" ContentPlaceHolderID="cphLogin" runat="server">
-    <div class="container-login">
+     <div class="container-login">
       <div class="form-login">
         <h3>Đăng nhập</h3>
-        <div class="input-group">
-          <input type="text" id="username" required>
-          <label for="username">Tên đăng nhập</label>
-        </div>
-        <div class="input-group mt">
-          <input type="password" id="password" required>
-          <label for="password">Mật khẩu</label>
-        </div>
-        <button type="submit">Đăng nhập</button>
+         <div class="input-group">
+              <asp:Label ID="Label1" runat="server" Text="Tên Đăng Nhập"></asp:Label>
+              <asp:TextBox ID="txtTenDN" runat="server"></asp:TextBox>
+              <asp:RequiredFieldValidator ID="rfvTenDN" runat="server" ControlToValidate="txtTenDN"  Display="Dynamic" ErrorMessage="Chưa nhập tên đăng nhập"></asp:RequiredFieldValidator>
+              <asp:CustomValidator ID="cusTenDN" ControlToValidate="txtTenDN" runat="server" ErrorMessage="Tên đăng nhập đã sai" OnServerValidate="cusTenDN_ServerValidate"  Display="Dynamic"></asp:CustomValidator>
+          </div>
+          <div class="input-group">
+             <asp:Label ID="Label2" runat="server" Text="Mật Khẩu"></asp:Label>
+             <asp:TextBox ID="txtDN_MK" TextMode="Password" runat="server"></asp:TextBox>
+             <asp:RequiredFieldValidator ID="rfvDN_MK" runat="server" ControlToValidate="txtDN_MK" ErrorMessage="Chưa nhập mật khẩu" Display="Dynamic"></asp:RequiredFieldValidator>
+             <asp:CustomValidator ID="cusDN_MK" runat="server" ControlToValidate="txtDN_MK" ErrorMessage="Mật khẩu đã sai" OnServerValidate="cusDN_MK_ServerValidate"></asp:CustomValidator>
+          </div>
+          <asp:Button ID="Button1" runat="server" Text="Đăng Nhập" OnClick="Button1_Click" />
         <div class="remember-password">
           <input type="checkbox">
           <label for="Lưu mật khẩu">Nhớ mật khẩu</label>
@@ -37,6 +27,4 @@
         </div>
         </div>
       </div>
-    </asp:Content>
-<asp:Content ID="Content10" ContentPlaceHolderID="cphRegister" runat="server">
 </asp:Content>

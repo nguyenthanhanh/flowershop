@@ -2,11 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cphIndex" runat="server">
-</asp:Content>
-
-<asp:Content ID="Content3" ContentPlaceHolderID="cphShop" runat="server">
-
-    <!-- SHOP PAGE -->
+     <!-- SHOP PAGE -->
     <div class="hero-wrap hero-bread" style="background-image: url('images/3.jpg');">
       <div class="container">
         <div class="row no-gutters slider-text align-items-center justify-content-center">
@@ -23,11 +19,8 @@
     		<div class="row justify-content-center">
     			<div class="col-md-10 mb-5 text-center">
     				<ul class="product-category">
-    					<li><a href="#" class="active">All</a></li>
-    					<li><a href="#">Vegetables</a></li>
-    					<li><a href="#">Fruits</a></li>
-    					<li><a href="#">Juice</a></li>
-    					<li><a href="#">Dried</a></li>
+    					<li><a href="shop.aspx" class="active">All</a></li>
+                       <li> <asp:DropDownList ID="ddtLoaiHoa" Width="150%"  CssClass="form-control mb-2" OnSelectedIndexChanged="ddtLoaiHoa_SelectedIndexChanged" runat="server"></asp:DropDownList></li>
     				</ul>
     			</div>
     		</div>
@@ -37,7 +30,7 @@
                         <div class="col-md-6 col-lg-3 ftco-animate">
     				<div class="product">
     					<a href="#" class="img-prod">
-                            <asp:Image ID="Image1" runat="server" ImageUrl='<%#"images/products" +Eval("AnhMinhHoa") %>'/>
+                            <asp:Image ID="Image1" runat="server" ImageUrl='<%# "images/products/" + Eval("AnhMinhHoa") %>'/>
     						<span class="status">30%</span>
     						<div class="overlay"></div>
     					</a>
@@ -71,10 +64,6 @@
                     </ItemTemplate>
                 </asp:Repeater>
                 </div>
-  
-                
-    			
-	
     		<div class="row mt-5">
           <div class="col text-center">
             <div class="block-27">
@@ -92,18 +81,4 @@
         </div>
     	</div>
     </section>
-</asp:Content>
-<asp:Content ID="Content4" ContentPlaceHolderID="cphWishlist" runat="server">
-</asp:Content>
-<asp:Content ID="Content5" ContentPlaceHolderID="cphChiTietSP" runat="server">
-</asp:Content>
-<asp:Content ID="Content6" ContentPlaceHolderID="cphCart" runat="server">
-</asp:Content>
-<asp:Content ID="Content7" ContentPlaceHolderID="cphCheckout" runat="server">
-</asp:Content>
-<asp:Content ID="Content8" ContentPlaceHolderID="cphAboutUS" runat="server">
-</asp:Content>
-<asp:Content ID="Content9" ContentPlaceHolderID="cphLogin" runat="server">
-</asp:Content>
-<asp:Content ID="Content10" ContentPlaceHolderID="cphRegister" runat="server">
 </asp:Content>

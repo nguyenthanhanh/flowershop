@@ -13,13 +13,31 @@ namespace DoAn
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            this.load_SP();
+            if(!Page.IsPostBack)
+            {
+                load();
+            }
         }
 
-        private void load_SP()
+
+        protected void ddtLoaiHoa_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string maLoaiHoa = ddtLoaiHoa.SelectedValue;
+            rptHoa.DataSource = ShopBus.LayDSHoa(maLoaiHoa);
+            rptHoa.DataBind();
+
+        }
+        private void load()
         {
             rptHoa.DataSource = ShopBus.LayDSHoa();
             rptHoa.DataBind();
+
+            ddtLoaiHoa.DataSource = LoaiHoaBUS.LayDSLoaiHoa();
+           
+            ddtLoaiHoa.DataTextField = "TenLoaiHoa";
+            ddtLoaiHoa.DataValueField = "MaLoaiHoa";
+            ddtLoaiHoa.AutoPostBack = true;
+            ddtLoaiHoa.DataBind();
         }
     }
 }

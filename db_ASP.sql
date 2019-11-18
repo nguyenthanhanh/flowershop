@@ -1,7 +1,7 @@
-﻿CREATE DATABASE ASP_db;
+﻿CREATE DATABASE db_ASP;
 GO
 
-USE ASP_db;
+USE db_ASP;
 GO
 
 --- Create tables ---
@@ -83,12 +83,19 @@ INSERT INTO TaiKhoan (TenTaiKhoan, MatKhau, Email, SDT, DiaChi, HoTen, LaAdmin, 
 INSERT INTO TaiKhoan (TenTaiKhoan, MatKhau, Email, SDT, DiaChi, HoTen, LaAdmin, AnhDaiDien, TrangThai) VALUES ('test1', '123456', N'test@gmail.com', '0905123456', N'Hà Nội', N'Nguyễn Văn A', 0, NULL, 1);
 INSERT INTO TaiKhoan (TenTaiKhoan, MatKhau, Email, SDT, DiaChi, HoTen, LaAdmin, AnhDaiDien, TrangThai) VALUES ('customer', '123456', N'customer@gmail.com', '0987654321', N'Huế', N'Trần Thị B', 0, NULL, 1);
 
+---into Loai Hoa---
+INSERT INTO LoaiHoa(MaLoaiHoa,TenLoaiHoa,TrangThai) VALUES('L001',N'Loại Hoa Hồng',1)
+INSERT INTO LoaiHoa(MaLoaiHoa,TenLoaiHoa,TrangThai) VALUES('L002',N'Loại Hoa Mai',1)
+INSERT INTO LoaiHoa(MaLoaiHoa,TenLoaiHoa,TrangThai) VALUES('L003',N'Loại Hoa Cúc',1)
+INSERT INTO LoaiHoa(MaLoaiHoa,TenLoaiHoa,TrangThai) VALUES('L004',N'Loại Hoa Tulip',1)
+
 --- into Hoa ---
-INSERT INTO Hoa (MaHoa, TenHoa, GiaTien, SoLuongTonKho, MaLoaiHoa, AnhMinhHoa, TrangThai) VALUES ('H001', N'Hoa Hồng', 45000, 40, Null, 'Hoa-1.jpg', 1)
-INSERT INTO Hoa (MaHoa, TenHoa, GiaTien, SoLuongTonKho, MaLoaiHoa, AnhMinhHoa, TrangThai) VALUES ('H002', N'Hoa Tulip', 51000, 15, null, 'Hoa-2.jpg', 1)
-INSERT INTO Hoa (MaHoa, TenHoa, GiaTien, SoLuongTonKho, MaLoaiHoa, AnhMinhHoa, TrangThai) VALUES ('H003', N'Hoa Mai', 59000, 29, null, 'Hoa-3.jpg', 1)
-INSERT INTO Hoa (MaHoa, TenHoa, GiaTien, SoLuongTonKho, MaLoaiHoa, AnhMinhHoa, TrangThai) VALUES ('H004', N'Hoa Tuyết', 53000, 1, null, 'Hoa-4.jpg', 1)
-INSERT INTO Hoa (MaHoa, TenHoa, GiaTien, SoLuongTonKho, MaLoaiHoa, AnhMinhHoa, TrangThai) VALUES ('H005', N'Hoa Cúc', 52000, 36, null, 'Hoa-5.jpg', 1)
-INSERT INTO Hoa (MaHoa, TenHoa, GiaTien, SoLuongTonKho, MaLoaiHoa, AnhMinhHoa, TrangThai) VALUES ('H006', N'Hoa Lan', 57000, 9, null, 'Hoa-6.jpg', 1)
-INSERT INTO Hoa (MaHoa, TenHoa, GiaTien, SoLuongTonKho, MaLoaiHoa, AnhMinhHoa, TrangThai) VALUES ('H007', N'Hoa Mộc Lan', 42000, 7, null, 'Hoa-7.jpg', 1)
-INSERT INTO Hoa (MaHoa, TenHoa, GiaTien, SoLuongTonKho, MaLoaiHoa, AnhMinhHoa, TrangThai) VALUES ('H008', N'Hoa Mười Giờ', 51000, 0, null, 'Hoa-8.jpg', 1)
+INSERT INTO Hoa (MaHoa, TenHoa, GiaTien, SoLuongTonKho, MaLoaiHoa, AnhMinhHoa, TrangThai) VALUES ('H001', N'Hoa Hồng', 45000, 40, 'L001', 'Hoa-1.jpg', 1)
+INSERT INTO Hoa (MaHoa, TenHoa, GiaTien, SoLuongTonKho, MaLoaiHoa, AnhMinhHoa, TrangThai) VALUES ('H002', N'Hoa Tulip', 51000, 15, 'L001', 'Hoa-2.jpg', 1)
+INSERT INTO Hoa (MaHoa, TenHoa, GiaTien, SoLuongTonKho, MaLoaiHoa, AnhMinhHoa, TrangThai) VALUES ('H003', N'Hoa Mai', 59000, 29,'L002', 'Hoa-3.jpg', 1)
+INSERT INTO Hoa (MaHoa, TenHoa, GiaTien, SoLuongTonKho, MaLoaiHoa, AnhMinhHoa, TrangThai) VALUES ('H004', N'Hoa Tuyết', 53000, 1, 'L002', 'Hoa-4.jpg', 1)
+INSERT INTO Hoa (MaHoa, TenHoa, GiaTien, SoLuongTonKho, MaLoaiHoa, AnhMinhHoa, TrangThai) VALUES ('H005', N'Hoa Cúc', 52000, 36, 'L003', 'Hoa-5.jpg', 1)
+INSERT INTO Hoa (MaHoa, TenHoa, GiaTien, SoLuongTonKho, MaLoaiHoa, AnhMinhHoa, TrangThai) VALUES ('H006', N'Hoa Lan', 57000, 9, 'L003', 'Hoa-6.jpg', 1)
+INSERT INTO Hoa (MaHoa, TenHoa, GiaTien, SoLuongTonKho, MaLoaiHoa, AnhMinhHoa, TrangThai) VALUES ('H007', N'Hoa Mộc Lan', 42000, 7, 'L004', 'Hoa-7.jpg', 1)
+INSERT INTO Hoa (MaHoa, TenHoa, GiaTien, SoLuongTonKho, MaLoaiHoa, AnhMinhHoa, TrangThai) VALUES ('H008', N'Hoa Mười Giờ', 51000, 0, 'L004', 'Hoa-8.jpg', 1)
+

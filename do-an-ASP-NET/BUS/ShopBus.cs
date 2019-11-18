@@ -21,5 +21,10 @@ namespace BUS
         {
             return ShopDAO.Lay_DS_Hoa_Noi_Bat();
         }
+
+        public static List<ShopDTO> LayDSHoa(string maLoaiHoa)
+        {
+            return ShopDAO.Lay_DS_Hoa(maLoaiHoa);
+        }
     }
 }

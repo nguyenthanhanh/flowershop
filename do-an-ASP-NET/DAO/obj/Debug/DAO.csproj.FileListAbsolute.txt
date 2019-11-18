@@ -12,3 +12,17 @@ C:\Users\ThanhAnh\Desktop\lambai\flowershop\do-an-ASP-NET\DAO\bin\Debug\DTO.pdb
 C:\Users\ThanhAnh\Desktop\lambai\flowershop\do-an-ASP-NET\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
 C:\Users\ThanhAnh\Desktop\lambai\flowershop\do-an-ASP-NET\DAO\obj\Debug\DAO.dll
 C:\Users\ThanhAnh\Desktop\lambai\flowershop\do-an-ASP-NET\DAO\obj\Debug\DAO.pdb
+C:\Users\SV\Desktop\flowershop\do-an-ASP-NET\DAO\bin\Debug\DAO.dll
+C:\Users\SV\Desktop\flowershop\do-an-ASP-NET\DAO\bin\Debug\DAO.pdb
+C:\Users\SV\Desktop\flowershop\do-an-ASP-NET\DAO\bin\Debug\DTO.dll
+C:\Users\SV\Desktop\flowershop\do-an-ASP-NET\DAO\bin\Debug\DTO.pdb
+C:\Users\SV\Desktop\flowershop\do-an-ASP-NET\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\SV\Desktop\flowershop\do-an-ASP-NET\DAO\obj\Debug\DAO.dll
+C:\Users\SV\Desktop\flowershop\do-an-ASP-NET\DAO\obj\Debug\DAO.pdb
+C:\Users\SV\Desktop\do-an-ASP-NET\DAO\bin\Debug\DAO.dll
+C:\Users\SV\Desktop\do-an-ASP-NET\DAO\bin\Debug\DAO.pdb
+C:\Users\SV\Desktop\do-an-ASP-NET\DAO\bin\Debug\DTO.dll
+C:\Users\SV\Desktop\do-an-ASP-NET\DAO\bin\Debug\DTO.pdb
+C:\Users\SV\Desktop\do-an-ASP-NET\DAO\obj\Debug\DAO.csprojResolveAssemblyReference.cache
+C:\Users\SV\Desktop\do-an-ASP-NET\DAO\obj\Debug\DAO.dll
+C:\Users\SV\Desktop\do-an-ASP-NET\DAO\obj\Debug\DAO.pdb

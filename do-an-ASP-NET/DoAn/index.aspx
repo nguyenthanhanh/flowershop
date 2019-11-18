@@ -3,12 +3,7 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
-
-
-
-
 <asp:Content ID="Content2" ContentPlaceHolderID="cphIndex" runat="server">
-
 <!-- INDEX PAGE -->
 <!-- INDEX ------------------------------------------------------------------------------------------>
         <section id="home-section" class="hero">
@@ -159,7 +154,7 @@
                         <div class="col-md-6 col-lg-3 ftco-animate">
     				        <div class="product">
     					        <a href="#" class="img-prod">
-                                    <asp:Image ImageUrl='<%# "images/products/" + Eval("AnhMinhHoa") %>' runat="server" />
+                                    <asp:Image ImageUrl='<%# "images/products/" +Eval("AnhMinhHoa")%>' runat="server" />
     						        <div class="overlay"></div>
     					        </a>
     					        <div class="text py-3 pb-4 px-3 text-center">
@@ -196,24 +191,6 @@
     	</div>
     </section>
 		
-</asp:Content>
-
-
-<asp:Content ID="Content3" ContentPlaceHolderID="cphShop" runat="server">
-</asp:Content>
-<asp:Content ID="Content4" ContentPlaceHolderID="cphWishlist" runat="server">
-</asp:Content>
-<asp:Content ID="Content5" ContentPlaceHolderID="cphChiTietSP" runat="server">
-</asp:Content>
-<asp:Content ID="Content6" ContentPlaceHolderID="cphCart" runat="server">
-</asp:Content>
-<asp:Content ID="Content7" ContentPlaceHolderID="cphCheckout" runat="server">
-</asp:Content>
-<asp:Content ID="Content8" ContentPlaceHolderID="cphAboutUS" runat="server">
-</asp:Content>
-<asp:Content ID="Content9" ContentPlaceHolderID="cphLogin" runat="server">
-</asp:Content>
-<asp:Content ID="Content10" ContentPlaceHolderID="cphRegister" runat="server">
 </asp:Content>
 
 

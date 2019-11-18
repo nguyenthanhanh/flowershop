@@ -2,12 +2,6 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cphIndex" runat="server">
-</asp:Content>
-<asp:Content ID="Content3" ContentPlaceHolderID="cphShop" runat="server">
-</asp:Content>
-
-<asp:Content ID="Content4" ContentPlaceHolderID="cphWishlist" runat="server">
-
     <!-- WISH LIST SHOP-->
         <div class="hero-wrap hero-bread" style="background-image: url('images/bg_1.jpg');">
       <div class="container">
@@ -170,15 +164,4 @@
 			</div>
 		</section>
 </asp:Content>
-<asp:Content ID="Content5" ContentPlaceHolderID="cphChiTietSP" runat="server">
-</asp:Content>
-<asp:Content ID="Content6" ContentPlaceHolderID="cphCart" runat="server">
-</asp:Content>
-<asp:Content ID="Content7" ContentPlaceHolderID="cphCheckout" runat="server">
-</asp:Content>
-<asp:Content ID="Content8" ContentPlaceHolderID="cphAboutUS" runat="server">
-</asp:Content>
-<asp:Content ID="Content9" ContentPlaceHolderID="cphLogin" runat="server">
-</asp:Content>
-<asp:Content ID="Content10" ContentPlaceHolderID="cphRegister" runat="server">
-</asp:Content>
+
