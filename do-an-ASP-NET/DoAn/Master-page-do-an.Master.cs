@@ -11,7 +11,31 @@ namespace DoAn
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+           
+            
+                HttpCookie cookie = Request.Cookies["TenTK"];
+                if (cookie != null)
+                {
+                    lbl.Text = "Xin Chào" + cookie.Value;
+                    btn_DX.Visible = true;
+                }
 
+                else
+                {
+                    lbl.Text = "Xin Chào Khách Hàng";
+                    btn_DX.Visible = false;
+
+                }
+            
+            
+        }
+
+        protected void btn_DX_Click(object sender, EventArgs e)
+        {
+            HttpCookie cookie = Request.Cookies["TenTK"];
+            Response.Cookies.Add(cookie);
+            cookie.Expires = DateTime.Now.AddDays(-1);
+            Response.Redirect(Request.RawUrl);
         }
     }
 }
