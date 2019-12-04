@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master-page-do-an.Master" AutoEventWireup="true" CodeBehind="about-us.aspx.cs" Inherits="DoAn.about_us" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+<asp:Content ID="Content1" ContentPlaceHolderID="head"  runat="server">
+   <title>Giới Thiệu</title>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="cphIndex" runat="server">
      <!-- ABOUT PAGE -->

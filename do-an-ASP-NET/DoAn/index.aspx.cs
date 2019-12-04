@@ -21,5 +21,34 @@ namespace DoAn
             rptSanPham.DataSource = ShopBus.LayDSHoaNoiBat();
             rptSanPham.DataBind();
         }
+
+        protected void rptSanPham_ItemCommand(object source, RepeaterCommandEventArgs e)
+        {
+            if (e.CommandName == "ThemGH")
+            {
+                HttpCookie cookie = Request.Cookies["TenTK"];
+                if (cookie != null)
+                {
+                    GioHangDTO gh = new GioHangDTO();
+                    gh.TenTaiKhoan = cookie.Value;
+                    gh.MaHoa = e.CommandArgument.ToString();
+                    gh.SoLuong = 1;
+                    if (GioHangBUS.ThemGH(gh))
+                    {
+                        Response.Write("<script>alert('Thêm Thành Công')</script>");
+                       
+                    }
+                    else
+                    {
+                        Response.Write("<script>alert('Thêm Thất Bại')</script>");
+                    }
+
+                }
+                else
+                {
+                    Response.Redirect("Login.aspx");
+                }
+            }
+        }
     }
 }

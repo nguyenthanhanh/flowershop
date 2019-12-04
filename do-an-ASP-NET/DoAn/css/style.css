@@ -2124,8 +2124,8 @@ fieldset:disabled a.btn {
 
 .btn-success {
   color: #fff;
-  background-color: #28a745;
-  border-color: #28a745; }
+  background-color: #F06292;
+  border-color: #F06292; }
   .btn-success:hover {
     color: #fff;
     background-color: #218838;
@@ -8932,7 +8932,7 @@ h1, h2, h3, h4, h5,
   .table th {
     font-weight: 500; }
   .table .thead-primary {
-    background: #82ae46; }
+    background: #f06292; }
     .table .thead-primary tr th {
       padding: 20px 10px;
       color: #fff !important;
@@ -10084,3 +10084,4 @@ textarea.form-control {
 #lbl{
     color:white;
 }
+

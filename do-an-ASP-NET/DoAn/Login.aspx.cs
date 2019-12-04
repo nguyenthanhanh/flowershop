@@ -18,12 +18,14 @@ namespace DoAn
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            TaiKhoanDTO tk = new TaiKhoanDTO();
-            tk.TenTaiKhoan = txtTenDN.Text;
-            tk.MatKhau = txtDN_MK.Text;
+            string tenTK=txtTenDN.Text;
             if (Page.IsValid)
             {
-                Response.Redirect("index.aspx");
+                HttpCookie cookie = new HttpCookie("TenTK");
+             cookie.Value= tenTK;
+             cookie.Expires=DateTime.Now.AddDays(14);
+             Response.Cookies.Add(cookie);
+             Response.Redirect("index.aspx");
             }
 
             else

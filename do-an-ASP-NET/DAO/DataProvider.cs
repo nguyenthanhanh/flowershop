@@ -12,6 +12,8 @@ namespace DAO
     {
         private static SqlDataAdapter adapter = new SqlDataAdapter();
         private static SqlConnection conn = new SqlConnection("Data Source=DESKTOP-FNEH1KG\\THANHANH;Initial Catalog=db_ASP;Integrated Security=True");
+        //private static SqlConnection conn = new SqlConnection();
+        //private static SqlConnection conn = new SqlConnection();
 
         public DataProvider()
         {

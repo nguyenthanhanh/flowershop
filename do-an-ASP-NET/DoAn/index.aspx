@@ -148,7 +148,7 @@
     	</div>
     	<div class="container">
     		<div class="row">
-                <asp:Repeater runat="server" ID="rptSanPham">
+                <asp:Repeater runat="server" ID="rptSanPham" OnItemCommand="rptSanPham_ItemCommand">
                    
                     <ItemTemplate>
                         <div class="col-md-6 col-lg-3 ftco-animate">
@@ -170,15 +170,9 @@
 	    					        </div>
 	    					        <div class="bottom-area d-flex px-3">
 	    						        <div class="m-auto d-flex">
-	    							        <a href="#" class="add-to-cart d-flex justify-content-center align-items-center text-center">
-	    								        <span><i class="ion-ios-menu"></i></span>
-	    							        </a>
-	    							        <a href="#" class="buy-now d-flex justify-content-center align-items-center mx-1">
-	    								        <span><i class="ion-ios-cart"></i></span>
-	    							        </a>
-	    							        <a href="#" class="heart d-flex justify-content-center align-items-center ">
-	    								        <span><i class="ion-ios-heart"></i></span>
-	    							        </a>
+	    							       <asp:LinkButton ID="btn_MENU" CssClass="add-to-cart d-flex justify-content-center align-items-center text-center ion-ios-menu " runat="server"></asp:LinkButton>
+                                           <asp:LinkButton ID="btn_GH" CssClass="ion-ios-cart buy-now d-flex justify-content-center align-items-center mx-1" CommandName="ThemGH" CommandArgument='<%# Eval("MaHoa") %>' runat="server"></asp:LinkButton>
+                                           <asp:LinkButton ID="btn_LIKE" CssClass="heart d-flex justify-content-center align-items-center ion-ios-heart" runat="server"></asp:LinkButton>
     							        </div>
     						        </div>
     					        </div>
