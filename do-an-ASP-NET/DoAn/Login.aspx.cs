@@ -37,29 +37,19 @@ namespace DoAn
 
         protected void cusTenDN_ServerValidate(object source, ServerValidateEventArgs args)
         {
-            string tenDN = txtTenDN.Text;
-            if(!TaiKhoanBUS.KT_TK(tenDN))
+            TaiKhoanDTO tk = new TaiKhoanDTO();
+            tk.TenTaiKhoan = txtTenDN.Text;
+            tk.MatKhau = txtDN_MK.Text;
+            if (TaiKhoanBUS.KT_TKDN(tk))
             {
-                args.IsValid = false;
+                args.IsValid = true;
             }
             else
             {
-                args.IsValid = true;
+                args.IsValid = false;
             }
 
         }
 
-        protected void cusDN_MK_ServerValidate(object source, ServerValidateEventArgs args)
-        {
-            string MK = txtDN_MK.Text;
-            if (!TaiKhoanBUS.KT_MK(MK))
-            {
-                args.IsValid = false;
-            }
-            else
-            {
-                args.IsValid = true;
-            }
-        }
     }
 }

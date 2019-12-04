@@ -18,7 +18,16 @@ namespace DAO
             param[0] = new SqlParameter("@TenTK", TenTK);
             return Convert.ToInt32(DataProvider.ExecuteSelectQuery(query, param).Rows[0][0]) == 1;
         }
-        public static bool KT_MK(String MK)
+
+        public static bool KT_DN(TaiKhoanDTO tk)
+        {
+            string query = "SELECT COUNT(*) FROM TaiKhoan WHERE TenTaiKhoan=@TenTK AND MatKhau=@MK ";
+            SqlParameter[] param = new SqlParameter[2];
+            param[0] = new SqlParameter("@TenTK", tk.TenTaiKhoan);
+            param[1] = new SqlParameter("@MK", tk.MatKhau);
+            return Convert.ToInt32(DataProvider.ExecuteSelectQuery(query, param).Rows[0][0]) == 1;
+        }
+        public static bool KT_MK(string MK)
         {
             string query = "SELECT COUNT(*) FROM TaiKhoan WHERE MatKhau=@MK";
             SqlParameter[] param = new SqlParameter[1];

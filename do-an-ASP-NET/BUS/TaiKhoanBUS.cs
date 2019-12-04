@@ -35,9 +35,9 @@ namespace BUS
             }
         }
 
-        public static bool KT_MK(string MK)
+        public static bool KT_TKDN(TaiKhoanDTO tk)
         {
-            if (TaiKhoanDAO.KT_MK(MK))
+            if (TaiKhoanDAO.KT_DN(tk))
             {
                 return true;
             }
@@ -46,5 +46,18 @@ namespace BUS
                 return false;
             }
         }
+
+
+        ////public static bool KT_MK(string MK)
+        ////{
+        ////    if (TaiKhoanDAO.KT_MK(MK))
+        ////    {
+        ////        return true;
+        ////    }
+        ////    else
+        ////    {
+        ////        return false;
+        ////    }
+        ////}
     }
 }

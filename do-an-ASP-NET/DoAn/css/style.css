@@ -9307,9 +9307,17 @@ textarea.form-control {
 .img,
 .blog-img,
 .user-img {
-  background-size: cover;
+  background-size: cover ;
   background-repeat: no-repeat;
   background-position: center center; }
+
+.hero-wrap-contain,
+.blog-img,
+.user-img {
+  background-size: contain ;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
 
 .ftco-services .services {
   display: block;
@@ -10084,4 +10092,53 @@ textarea.form-control {
 #lbl{
     color:white;
 }
+
+.hero-wrap-contain {
+  width: 100%;
+  position: relative; }
+  .hero-wrap-contain .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: .6;
+    width: 50%;
+    background: #82ae46; }
+  .hero-wrap-contain .slider-text {
+    color: #fff;
+    position: relative; }
+    .hero-wrap-contain .slider-text .breadcrumbs {
+      text-transform: uppercase;
+      font-size: 25px;
+      letter-spacing: 3px;
+      margin-bottom: 0;
+      z-index: 99;
+      font-weight: 300; }
+      .hero-wrap-contain .slider-text .breadcrumbs span {
+        color: #e84393 ; }
+        .hero-wrap-contain .slider-text .breadcrumbs span a {
+          color: #e84393; }
+    .hero-wrap-contain .slider-text .bread {
+      font-weight: 800;
+      color: #e84393;
+      font-size: 30px;
+      font-family: "Poppins", Arial, sans-serif;
+      letter-spacing: 3px;
+      text-transform: uppercase; }
+    .hero-wrap-contain .slider-text .btn-primary {
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      -ms-border-radius: 30px;
+      border-radius: 30px; }
+      .hero-wrap-contain .slider-text .btn-primary:hover, .hero-wrap-contain .slider-text .btn-primary:focus {
+        background: #fff !important;
+        color: #000000; }
+  .hero-wrap-contain.hero-bread {
+    padding: 10em 0; }
+
+
+
 

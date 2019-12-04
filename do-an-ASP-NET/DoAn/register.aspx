@@ -27,6 +27,7 @@
              <asp:TextBox ID="txtMK" TextMode="Password" runat="server"></asp:TextBox>
              <asp:RequiredFieldValidator ID="rfvMK" runat="server" ControlToValidate="txtMK" ErrorMessage="Chưa nhập mật khẩu" Display="Dynamic"></asp:RequiredFieldValidator>
              <asp:RegularExpressionValidator ID="revMK" ControlToValidate="txtMK" runat="server" ErrorMessage="Mật Khẩu từ 6-20 kí tự, chỉ gồm chữ cái, chữ số, dấu gạch dưới" ValidationExpression="\w{6,20}" Display="Dynamic"></asp:RegularExpressionValidator>
+              
           </div>
           <div class="input-group">
             <asp:Label ID="Label3" runat="server" Text="Nhập Lại Mật Khẩu"></asp:Label>
