@@ -34,7 +34,30 @@ namespace DoAn
 
         protected void btnThanhToan_Click(object sender, EventArgs e)
         {
-          
+            HttpCookie cookie = Request.Cookies["TenTK"];
+            if (cookie != null)
+            {
+                string tentk = cookie.Value;
+                TaiKhoanDTO tk = TaiKhoanBUS.LayThongTinTK(tentk);
+                HoaDonDTO hd = new HoaDonDTO();
+                hd.TenTaiKhoan = tentk;
+                hd.NgayMua = DateTime.Now;
+                hd.DiaChiGiaoHang = tk.DiaChi;
+                hd.SdtGiaoHang = tk.SoDienThoai;
+                hd.TongTien = GioHangBUS.TinhTongTienGH(tentk);
+                hd.MaHD = HoaDonBUS.ThemHD(hd);
+
+                DataTable dtbKQ = GioHangBUS.LayGH(tentk);
+                foreach (DataRow dr in dtbKQ.Rows)
+                {
+                    CTHoaDonDTO cthd = new CTHoaDonDTO();
+                    cthd.MaHD = hd.MaHD;
+                    cthd.MaHoa = dr["MaHoa"].ToString();
+                    cthd.SoLuong = Convert.ToInt32(dr["SoLuong"]);
+                    cthd.DonGia = Convert.ToInt32(dr["GiaTien"]);
+                    CTHoaDonBUS.ThemCTHD(cthd);
+                }
+            }
         }
     }
 }

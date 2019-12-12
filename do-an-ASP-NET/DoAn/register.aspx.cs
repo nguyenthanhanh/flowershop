@@ -32,12 +32,17 @@ namespace DoAn
             if (Page.IsValid)
             {
                 TaiKhoanBUS.ThemTK(tk);
+                HttpCookie cookie = new HttpCookie("TenTK");
+                cookie.Value = tk.TenTaiKhoan;
+                cookie.Expires = DateTime.Now.AddDays(14);
+                Response.Cookies.Add(cookie);
                 Response.Write("<script>alert('Đăng ký thành công')</script>");
             }
             else
             {
                 Response.Write("<script>alert('Đăng ký thất bại')</script>");
             }
+            Response.Redirect("index.aspx");
 
             
         }

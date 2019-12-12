@@ -48,16 +48,16 @@ namespace BUS
         }
 
 
-        ////public static bool KT_MK(string MK)
-        ////{
-        ////    if (TaiKhoanDAO.KT_MK(MK))
-        ////    {
-        ////        return true;
-        ////    }
-        ////    else
-        ////    {
-        ////        return false;
-        ////    }
-        ////}
+        public static TaiKhoanDTO LayThongTinTK(string tenTK)
+        {
+            if (!TaiKhoanDAO.KT_TK(tenTK))
+            {
+                return null;
+            }
+            else
+            {
+                return TaiKhoanDAO.LayThongTinTK(tenTK);
+            }
+        }
     }
 }

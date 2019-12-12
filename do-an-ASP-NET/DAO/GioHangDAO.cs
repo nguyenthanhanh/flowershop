@@ -43,7 +43,7 @@ namespace DAO
             string query = "UPDATE GioHang SET SoLuong = SoLuong + @SoLuong WHERE TenTaiKhoan = @TenTaiKhoan AND MaHoa = @MaHoa";
             SqlParameter[] param = new SqlParameter[3];
             param[0] = new SqlParameter("@TenTaiKhoan", gh.TenTaiKhoan);
-            param[1] = new SqlParameter("@MaSP", gh.MaHoa);
+            param[1] = new SqlParameter("@MaHoa", gh.MaHoa);
             param[2] = new SqlParameter("@SoLuong", gh.SoLuong);
             return DataProvider.ExecuteUpdateQuery(query, param) == 1;
         }
@@ -52,7 +52,7 @@ namespace DAO
         {
             GioHangDTO gh = new GioHangDTO();
             gh.TenTaiKhoan = dr["TenTaiKhoan"].ToString();
-            gh.MaHoa = dr["MaSP"].ToString();
+            gh.MaHoa = dr["MaHoa"].ToString();
             gh.SoLuong = Convert.ToInt32(dr["SoLuong"]);
             return gh;
         }
