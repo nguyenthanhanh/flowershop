@@ -48,6 +48,14 @@ namespace DAO
             return DataProvider.ExecuteUpdateQuery(query, param) == 1;
         }
 
+        public static bool XoaitemGH(string maHoa)
+        {
+            string query = "DELETE GioHang where MaHoa=@mahoa";
+            SqlParameter[] param = new SqlParameter[1];
+            param[0] = new SqlParameter("@mahoa", maHoa);
+            return DataProvider.ExecuteDeleteQuery(query, param) == 1;
+        }
+
         public static GioHangDTO ConvertToDTO(DataRow dr)
         {
             GioHangDTO gh = new GioHangDTO();

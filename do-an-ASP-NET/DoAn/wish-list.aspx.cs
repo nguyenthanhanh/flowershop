@@ -59,5 +59,15 @@ namespace DoAn
                 }
             }
         }
+
+        protected void grvGioHang_RowCommand(object sender, GridViewCommandEventArgs e)
+        {
+            string maHoa = e.CommandArgument.ToString();   
+            if(e.CommandName == "Delete")
+            {
+                GioHangBUS.XoaitemGH(maHoa);
+                Response.Redirect(Request.RawUrl);
+            }
+        }
     }
 }

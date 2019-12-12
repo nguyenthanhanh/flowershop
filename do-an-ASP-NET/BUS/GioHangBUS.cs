@@ -38,6 +38,11 @@ namespace BUS
                 return GioHangDAO.ThemGH(gh);
             }
         }
+
+        public static bool XoaitemGH(string maHoa )
+        {
+            return GioHangDAO.XoaitemGH(maHoa);
+        }
     }
 
 }

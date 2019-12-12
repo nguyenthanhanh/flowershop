@@ -18,13 +18,19 @@
 
 			<div class="container">
 
-                         <asp:GridView ID="grvGioHang" runat="server" CssClass="table table-striped table-hover" GridLines="None" AutoGenerateColumns="False">
+                         <asp:GridView ID="grvGioHang" runat="server" CssClass="table table-striped table-hover" GridLines="None" AutoGenerateColumns="False" OnRowCommand="grvGioHang_RowCommand">
                              <Columns>
                                  <asp:BoundField DataField="TenHoa" HeaderText="Tên Hoa" />
                                  <asp:BoundField DataField="GiaTien" HeaderText="Giá Tiền" />
                                  <asp:BoundField DataField="SoLuong" HeaderText="Số Lượng" />
                                  <asp:BoundField DataField="ThanhTien" HeaderText="Thành Tiền" />
+                                 <asp:TemplateField ShowHeader="False">
+                                     <ItemTemplate>
+                                         <asp:Button ID="Button1" runat="server" CssClass="btn btn-success" CausesValidation="False" CommandName="Delete" Text="Xoa" CommandArgument='<%# Eval("MaHoa") %>' />
+                                     </ItemTemplate>
+                                 </asp:TemplateField>
                              </Columns>
+                             
 
                                 </asp:GridView>
                                 Tổng tiền: <asp:Label ID="lblTongTien" runat="server" Text="0"></asp:Label> VNĐ

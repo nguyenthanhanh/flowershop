@@ -13,7 +13,7 @@ namespace DAO
         private static readonly String strConnThanhAnh = "Data Source=DESKTOP-FNEH1KG\\THANHANH;Initial Catalog=db_ASP;Integrated Security=True";
         private static readonly String strConnTrienChi = "Data Source=LAPTOP-ORG89FAK;Initial Catalog=db_ASP;Integrated Security=True";
         private static SqlDataAdapter adapter = new SqlDataAdapter();
-        private static SqlConnection conn = new SqlConnection(strConnThanhAnh);
+        private static SqlConnection conn = new SqlConnection(strConnTrienChi);
 
         public DataProvider()
         {

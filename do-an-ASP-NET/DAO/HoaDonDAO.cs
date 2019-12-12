@@ -20,7 +20,7 @@ namespace DAO
 
         public static bool ThemHD(HoaDonDTO hd)
         {
-            string query = "INSERT INTO HoaDon (MaHD, TenTaiKhoan, NgayMua, DiaChiGiaoHang, SDTGiaoHang, TongTien, TrangThai) VALUES (@MaHD, @TenTaiKhoan, @NgayMua, @DiaChiGiaoHang, @SDTGiaoHang, @SDTGiaoHang, @TongTien, @TrangThai)";
+            string query = "INSERT INTO HoaDon (MaHD, TenTaiKhoan, NgayMua, DiaChiGiaoHang, SDTGiaoHang, TongTien, TrangThai) VALUES (@MaHD, @TenTaiKhoan, @NgayMua, @DiaChiGiaoHang, @SDTGiaoHang, @TongTien, @TrangThai)";
             SqlParameter[] param = new SqlParameter[7];
             param[0] = new SqlParameter("@MaHD", hd.MaHD);
             param[1] = new SqlParameter("@TenTaiKhoan", hd.TenTaiKhoan);
