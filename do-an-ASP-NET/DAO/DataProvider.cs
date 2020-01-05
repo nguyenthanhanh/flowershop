@@ -10,10 +10,12 @@ namespace DAO
 {
     public class DataProvider
     {
+        private static readonly String strConnThanhAnh = "Data Source=DESKTOP-FNEH1KG\\THANHANH;Initial Catalog=db_ASP;Integrated Security=True";
+        private static readonly String strConnTrienChi = "Data Source=LAPTOP-ORG89FAK;Initial Catalog=db_ASP;Integrated Security=True";
         private static SqlDataAdapter adapter = new SqlDataAdapter();
-        private static SqlConnection conn = new SqlConnection("Data Source=DESKTOP-FNEH1KG\\THANHANH;Initial Catalog=db_ASP;Integrated Security=True");
-        //private static SqlConnection conn = new SqlConnection("Data Source=localhost;Initial Catalog=db_ASP;Integrated Security=True");
-        //private static SqlConnection conn = new SqlConnection();
+
+        private static SqlConnection conn = new SqlConnection(strConnThanhAnh);
+
 
         public DataProvider()
         {

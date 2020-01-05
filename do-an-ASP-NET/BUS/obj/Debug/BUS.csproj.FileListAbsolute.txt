@@ -34,3 +34,14 @@ C:\Users\SV\Desktop\do-an-ASP-NET\BUS\bin\Debug\DTO.pdb
 C:\Users\SV\Desktop\do-an-ASP-NET\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
 C:\Users\SV\Desktop\do-an-ASP-NET\BUS\obj\Debug\BUS.dll
 C:\Users\SV\Desktop\do-an-ASP-NET\BUS\obj\Debug\BUS.pdb
+C:\Jackliang\flowershop\do-an-ASP-NET\BUS\bin\Debug\BUS.dll
+C:\Jackliang\flowershop\do-an-ASP-NET\BUS\bin\Debug\BUS.pdb
+C:\Jackliang\flowershop\do-an-ASP-NET\BUS\bin\Debug\DAO.dll
+C:\Jackliang\flowershop\do-an-ASP-NET\BUS\bin\Debug\DTO.dll
+C:\Jackliang\flowershop\do-an-ASP-NET\BUS\bin\Debug\DAO.pdb
+C:\Jackliang\flowershop\do-an-ASP-NET\BUS\bin\Debug\DTO.pdb
+C:\Jackliang\flowershop\do-an-ASP-NET\BUS\obj\Debug\BUS.csprojAssemblyReference.cache
+C:\Jackliang\flowershop\do-an-ASP-NET\BUS\obj\Debug\BUS.csproj.CoreCompileInputs.cache
+C:\Jackliang\flowershop\do-an-ASP-NET\BUS\obj\Debug\BUS.csproj.CopyComplete
+C:\Jackliang\flowershop\do-an-ASP-NET\BUS\obj\Debug\BUS.dll
+C:\Jackliang\flowershop\do-an-ASP-NET\BUS\obj\Debug\BUS.pdb

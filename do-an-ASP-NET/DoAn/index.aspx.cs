@@ -36,6 +36,7 @@ namespace DoAn
                     if (GioHangBUS.ThemGH(gh))
                     {
                         Response.Write("<script>alert('Thêm Thành Công')</script>");
+                        Response.Redirect(Request.RawUrl);
                        
                     }
                     else
